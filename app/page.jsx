@@ -28,9 +28,6 @@ import {
   SkillsGrid,
   SkillCategory,
   SkillList,
-  EducationItem,
-  EducationHeader,
-  EducationPeriod,
   Footer,
   FooterContent,
 } from "./page.styles"
@@ -47,8 +44,8 @@ export default function Home() {
         <HeroSection id="about">
           <HeroContent>
             <div>
-              <Title>Trinh The Son</Title>
-              <Subtitle>Amateur C + + Engineer</Subtitle>
+              <Title>Son Trinh</Title>
+              <Subtitle>Software Engineer C++</Subtitle>
             </div>
 
             <CompanyBadges>
@@ -57,43 +54,33 @@ export default function Home() {
                 <span>VinAI</span>
               </CompanyBadge>
               <CompanyBadge>
-                <CompanyIcon $color="pitch">
-                  <svg viewBox="0 0 24 24" width="14" height="14" fill="white">
-                    <path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 3.5L18 9v6l-6 3-6-3V9l6-3.5z" />
-                  </svg>
-                </CompanyIcon>
+                <CompanyIcon $color="pitch" />
                 <span>OPSWAT</span>
               </CompanyBadge>
             </CompanyBadges>
 
             <Description>
               <p>
-                Hello there! My name is Son Trinh and I'm a C++ Engineer at{" "}
-                <span style={{ color: "white", fontWeight: 600 }}>VinAI</span>, living in Vietnam. I grew up on the
-                internet and love computers and software.
+                Hi, I’m Son Trinh, a C++ Engineer at {" "}
+                <span style={{ color: "white", fontWeight: 600 }}>VinAI</span> in Vietnam.
+                My motto? Simple: "Work with the best, learn from the best, and be the best."
               </p>
-
               <p>
-                In my 10 years of experience I have designed User Interfaces and experiences, planned, supported, and
-                implemented features and roadmaps, and led cross-functional teams at companies like{" "}
-                <span style={{ color: "white", fontWeight: 500 }}>Pitch</span>,{" "}
-                <span style={{ color: "white", fontWeight: 500 }}>Microsoft</span>, and{" "}
-                <span style={{ color: "white", fontWeight: 500 }}>Native Instruments</span>.
+                At VinAI, I'm hands-on developing core algorithms that push the boundaries of L2/L2++ ADAS capabilities.
               </p>
-
-              <p>P.S The video on the right is outdated and I am no longer looking for a new role.</p>
+              <p>P.S. Not open to new opportunities - focused on advancing ADAS at VinAI."!</p>
             </Description>
 
             <SocialLinks>
-              <SocialLink href="#">
+              <SocialLink rel="noopener noreferrer" target="_blank" href="mailto:ttson.cs@gmail.com">
                 <ArrowUpRight size={16} />
                 <span>Email</span>
               </SocialLink>
-              <SocialLink href="#">
+              <SocialLink rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/ttsoncs/">
                 <ArrowUpRight size={16} />
                 <span>LinkedIn</span>
               </SocialLink>
-              <SocialLink href="#">
+              <SocialLink rel="noopener noreferrer" target="_blank" href="#">
                 <ArrowUpRight size={16} />
                 <span>CV / Resume</span>
               </SocialLink>
@@ -546,27 +533,6 @@ export default function Home() {
               </SkillList>
             </SkillCategory>
           </SkillsGrid>
-        </Section>
-
-        {/* Education Section */}
-        <Section id="education">
-          <SectionTitle>Education</SectionTitle>
-          <div style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
-            <EducationItem>
-              <EducationHeader>
-                <h4>University of Design, Berlin</h4>
-                <EducationPeriod>2010 - 2014</EducationPeriod>
-              </EducationHeader>
-              <p style={{ color: "#d1d5db" }}>Bachelor of Arts in Digital Media Design</p>
-            </EducationItem>
-            <EducationItem>
-              <EducationHeader>
-                <h4>Design Academy Online</h4>
-                <EducationPeriod>2016</EducationPeriod>
-              </EducationHeader>
-              <p style={{ color: "#d1d5db" }}>Certificate in User Experience Design</p>
-            </EducationItem>
-          </div>
         </Section>
 
         {/* Footer */}

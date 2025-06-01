@@ -1,6 +1,7 @@
 "use client"
 
 import styled from "styled-components"
+import Link from "next/link";
 
 export const Container = styled.main`
   min-height: 100vh;
@@ -155,9 +156,7 @@ export const Title = styled.h1`
 `
 
 export const Subtitle = styled.h2`
-  font-size: 1rem;
-  padding-top: 0.5rem;
-  color: gray;
+  font-size: 1.125rem;
   font-weight: 500;
 
   @media (min-width: ${(props) => props.theme.breakpoints.md}) {
@@ -249,7 +248,7 @@ export const Description = styled.div`
   flex-direction: column;
   gap: 1rem;
   color: ${(props) => props.theme.colors.gray[300]};
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1.6;
 
   @media (min-width: ${(props) => props.theme.breakpoints.md}) {
@@ -268,7 +267,7 @@ export const SocialLinks = styled.div`
   }
 `
 
-export const SocialLink = styled.a`
+export const SocialLink = styled(Link)`
   display: flex;
   align-items: center;
   gap: 0.375rem;
@@ -367,55 +366,6 @@ export const SkillList = styled.ul`
   }
 `
 
-export const EducationItem = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-
-  h4 {
-    font-size: 1.125rem;
-    font-weight: ${(props) => props.theme.fontWeights.medium};
-
-    @media (min-width: ${(props) => props.theme.breakpoints.md}) {
-      font-size: 1.25rem;
-    }
-  }
-
-  @media (min-width: ${(props) => props.theme.breakpoints.md}) {
-    gap: 0.5rem;
-  }
-`
-
-export const EducationHeader = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-
-  @media (min-width: ${(props) => props.theme.breakpoints.sm}) {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
-`
-
-export const EducationPeriod = styled.div`
-  padding: 0.25rem 0.75rem;
-  background-color: ${(props) => props.theme.colors.black};
-  border: 1px solid ${(props) => props.theme.colors.gray[800]};
-  border-radius: 9999px;
-  font-size: 0.75rem;
-  width: fit-content;
-  margin-top: 0.25rem;
-
-  @media (min-width: ${(props) => props.theme.breakpoints.sm}) {
-    margin-top: 0;
-  }
-
-  @media (min-width: ${(props) => props.theme.breakpoints.md}) {
-    font-size: 0.875rem;
-  }
-`
-
 export const Footer = styled.footer`
   margin-top: 4rem;
   padding-top: 1.5rem;
@@ -436,6 +386,7 @@ export const FooterContent = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  font-size: 1rem;
 
   @media (min-width: ${(props) => props.theme.breakpoints.md}) {
     flex-direction: row;

@@ -5,9 +5,9 @@ import localFont from "next/font/local"
 
 const wotfard = localFont({
   src: [
-    { path: "/fonts/wotfard-regular-webfont.woff2", weight: "400", style: "normal" },
-    { path: "/fonts/wotfard-medium-webfont.woff2", weight: "500", style: "normal" },
-    { path: "/fonts/wotfard-semibold-webfont.woff2", weight: "600", style: "normal" },
+    { path: "/fonts/Circular-Book.woff2", weight: "400", style: "normal" },
+    { path: "/fonts/Circular-Medium.woff2", weight: "500", style: "normal" },
+    { path: "/fonts/Circular-Bold.woff2", weight: "600", style: "normal" },
   ],
   display: "fallback",
   preload: false,
