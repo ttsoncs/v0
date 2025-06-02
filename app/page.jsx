@@ -4,6 +4,8 @@ import Image from "next/image"
 import { ArrowUpRight } from "lucide-react"
 import WorkExperience from "@/components/work-experience"
 import FloatingMenu from "@/components/floating-menu"
+import localFont from "next/font/local"
+
 import {
   Container,
   HeroSection,
@@ -32,6 +34,14 @@ import {
   FooterContent,
 } from "./page.styles"
 
+const novela = localFont({
+  src: [
+    { path: "/fonts/novela-regular-webfont.woff", weight: "400", style: "normal" },
+  ],
+  display: "fallback",
+  preload: false,
+})
+
 export default function Home() {
   const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
   const currentDay = daysOfWeek[new Date().getDay()]
@@ -43,23 +53,14 @@ export default function Home() {
         {/* Hero Section */}
         <HeroSection id="about">
           <HeroContent>
-            <Title>Trinh The Son</Title>
-
-            <CompanyBadges>
-              <CompanyBadge>
-                <Image src="/vinai.png" alt="VinAI" width={70} height={70} />
-              </CompanyBadge>
-              <CompanyBadge>
-                <Image src="/opswat.png" alt="OPSWAT" width={84} height={84} />
-              </CompanyBadge>
-            </CompanyBadges>
+            <Title className={novela.className}>Trinh The Son</Title>
 
             <Description>
               <p>
-                A C++ Engineer @<span style={{ color: "#00A4EF", fontWeight: 600 }}>VinAI</span> in Vietnam. Previously at OPSWAT. My work focuses on algorithmic research and development for L2/L2++ ADAS.
+                Amateur C++ Engineer @VinAI. Previously @OPSWAT. My work focuses on algorithmic research and development for L2/L2++ ADAS.
               </p>
               <p>
-                My motto is really simple: "Work with the best, learn from the best, be the best."
+                My motto is really simple: "Work with the best, learn from the best, be the best".
               </p>
               <p>P.S. At this time, I'm not exploring new opportunities.</p>
             </Description>
