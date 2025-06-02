@@ -296,199 +296,6 @@ export default function Home() {
               </div>
             </div>
           </WorkExperience>
-
-          {/* Native Instruments */}
-          <WorkExperience
-            logo={
-              <CompanyIcon $color="gray">
-                <span style={{ color: "white", fontWeight: "bold", fontSize: "1.125rem" }}>NI</span>
-              </CompanyIcon>
-            }
-            company="Native Instruments"
-            period="2014 - 2016"
-            title="Creating tools for music producers and DJs"
-            description="Native Instruments develops software and hardware for music production and DJing. I worked on the design of music production software and hardware interfaces."
-          >
-            <div
-              style={{
-                marginTop: "2rem",
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-                gap: "2rem",
-              }}
-            >
-              <div>
-                <h4 style={{ fontSize: "1.25rem", fontWeight: 500, marginBottom: "1rem" }}>My Role</h4>
-                <p style={{ color: "#d1d5db", lineHeight: 1.6 }}>
-                  As a UI/UX Designer, I was responsible for designing interfaces for music production software and
-                  hardware controllers, ensuring they were intuitive and efficient for creative professionals.
-                </p>
-              </div>
-              <div>
-                <h4 style={{ fontSize: "1.25rem", fontWeight: 500, marginBottom: "1rem" }}>Key Achievements</h4>
-                <ul style={{ color: "#d1d5db", lineHeight: 1.6, listStyle: "none" }}>
-                  <li>• Redesigned the Maschine software interface, improving workflow for music producers</li>
-                  <li>
-                    • Created UI specifications for hardware controllers, bridging the gap between software and hardware
-                  </li>
-                  <li>• Developed a consistent design language across the product portfolio</li>
-                </ul>
-              </div>
-            </div>
-            <div
-              style={{
-                marginTop: "2rem",
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
-                gap: "1rem",
-              }}
-            >
-              <div
-                style={{
-                  aspectRatio: "16/9",
-                  backgroundColor: "#111827",
-                  borderRadius: "0.5rem",
-                  overflow: "hidden",
-                  position: "relative",
-                }}
-              >
-                <Image
-                  src="/placeholder.svg?height=200&width=300"
-                  alt="Native Instruments project screenshot"
-                  fill
-                  style={{ objectFit: "cover" }}
-                />
-              </div>
-              <div
-                style={{
-                  aspectRatio: "16/9",
-                  backgroundColor: "#111827",
-                  borderRadius: "0.5rem",
-                  overflow: "hidden",
-                  position: "relative",
-                }}
-              >
-                <Image
-                  src="/placeholder.svg?height=200&width=300"
-                  alt="Native Instruments project screenshot"
-                  fill
-                  style={{ objectFit: "cover" }}
-                />
-              </div>
-              <div
-                style={{
-                  aspectRatio: "16/9",
-                  backgroundColor: "#111827",
-                  borderRadius: "0.5rem",
-                  overflow: "hidden",
-                  position: "relative",
-                }}
-              >
-                <Image
-                  src="/placeholder.svg?height=200&width=300"
-                  alt="Native Instruments project screenshot"
-                  fill
-                  style={{ objectFit: "cover" }}
-                />
-              </div>
-            </div>
-          </WorkExperience>
-
-          {/* Flexa (Current) */}
-          <WorkExperience
-            logo={
-              <CompanyIcon $gradient="purple-pink">
-                <span style={{ color: "white", fontWeight: "bold", fontSize: "1.125rem" }}>F</span>
-              </CompanyIcon>
-            }
-            company="Flexa"
-            period="2024 - Present"
-            title="Reimagining flexible work for the modern workforce"
-            description="Flexa is a platform that connects professionals with flexible work opportunities. I'm currently leading the design team, focusing on creating intuitive and efficient experiences for both employers and job seekers."
-          >
-            <div
-              style={{
-                marginTop: "2rem",
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-                gap: "2rem",
-              }}
-            >
-              <div>
-                <h4 style={{ fontSize: "1.25rem", fontWeight: 500, marginBottom: "1rem" }}>My Role</h4>
-                <p style={{ color: "#d1d5db", lineHeight: 1.6 }}>
-                  As the Lead Product Designer, I'm responsible for the overall design direction of the platform,
-                  managing the design team, and collaborating with product and engineering to deliver a cohesive user
-                  experience.
-                </p>
-              </div>
-              <div>
-                <h4 style={{ fontSize: "1.25rem", fontWeight: 500, marginBottom: "1rem" }}>Current Focus</h4>
-                <ul style={{ color: "#d1d5db", lineHeight: 1.6, listStyle: "none" }}>
-                  <li>• Redesigning the job search experience to better match candidates with opportunities</li>
-                  <li>• Building a scalable design system to support rapid product development</li>
-                  <li>• Implementing user research processes to inform product decisions</li>
-                </ul>
-              </div>
-            </div>
-            <div
-              style={{
-                marginTop: "2rem",
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
-                gap: "1rem",
-              }}
-            >
-              <div
-                style={{
-                  aspectRatio: "16/9",
-                  backgroundColor: "#111827",
-                  borderRadius: "0.5rem",
-                  overflow: "hidden",
-                  position: "relative",
-                }}
-              >
-                <Image
-                  src="/placeholder.svg?height=200&width=300"
-                  alt="Flexa project screenshot"
-                  fill
-                  style={{ objectFit: "cover" }}
-                />
-              </div>
-              <div
-                style={{
-                  aspectRatio: "16/9",
-                  backgroundColor: "#111827",
-                  borderRadius: "0.5rem",
-                  overflow: "hidden",
-                  position: "relative",
-                }}
-              >
-                <Image
-                  src="/placeholder.svg?height=200&width=300"
-                  alt="Flexa project screenshot"
-                  fill
-                  style={{ objectFit: "cover" }}
-                />
-              </div>
-              <div
-                style={{
-                  aspectRatio: "16/9",
-                  backgroundColor: "#111827",
-                  borderRadius: "0.5rem",
-                  overflow: "hidden",
-                  position: "relative",
-                }}
-              >
-                <Image
-                  src="/placeholder.svg?height=200&width=300"
-                  alt="Flexa project screenshot"
-                  fill
-                  style={{ objectFit: "cover" }}
-                />
-              </div>
-            </div>
-          </WorkExperience>
         </Section>
 
         {/* Skills Section */}
@@ -533,10 +340,44 @@ export default function Home() {
 
         {/* Footer */}
         <Footer>
-          <FooterContent>
-            <div style={{ color: "#9ca3af" }}>© {new Date().getFullYear()} Trinh The Son. All rights reserved.</div>
-            <div style={{ color: "#9ca3af" }}>
-              Enjoy the rest of your <span style={{ fontWeight: "bold", color: "white" }}>{currentDay}!</span>
+          <FooterContent style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
+            gap: '2rem',
+            padding: '2rem 0'
+          }}>
+            <div>
+              <h3 style={{ color: 'white', marginBottom: '1rem', fontSize: '1.1rem' }}>Contact</h3>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                <a href="mailto:ttson.cs@gmail.com" style={{ color: '#9ca3af', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                    <polyline points="22,6 12,13 2,6" />
+                  </svg>
+                  ttson.cs@gmail.com
+                </a>
+                <a href="https://www.linkedin.com/in/ttsoncs/" target="_blank" rel="noopener noreferrer" style={{ color: '#9ca3af', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                    <rect x="2" y="9" width="4" height="12" />
+                    <circle cx="4" cy="4" r="2" />
+                  </svg>
+                  LinkedIn
+                </a>
+              </div>
+            </div>
+            <div>
+              <h3 style={{ color: 'white', marginBottom: '1rem', fontSize: '1.1rem' }}>Current</h3>
+              <div style={{ color: '#9ca3af', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                <span>Software Engineer C++ @VinAI</span>
+                <span>Based in Vietnam</span>
+              </div>
+            </div>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+              <div style={{ color: '#9ca3af' }}>© {new Date().getFullYear()} Trinh The Son. All rights reserved.</div>
+              <div style={{ color: '#9ca3af' }}>
+                Have a great <span style={{ fontWeight: "500", color: "white" }}>{currentDay}!</span>
+              </div>
             </div>
           </FooterContent>
         </Footer>
