@@ -168,10 +168,10 @@ export const CompanyBadges = styled.div`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.75rem;
+  gap: 1rem;
 
   @media (min-width: ${(props) => props.theme.breakpoints.md}) {
-    gap: 1rem;
+    gap: 1.5rem;
   }
 `
 

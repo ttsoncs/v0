@@ -44,31 +44,27 @@ export default function Home() {
         <HeroSection id="about">
           <HeroContent>
             <div>
-              <Title>Son Trinh</Title>
+              <Title>Trinh The Son</Title>
               <Subtitle>Software Engineer C++</Subtitle>
             </div>
 
             <CompanyBadges>
               <CompanyBadge>
-                <CompanyIcon $gradient="purple-pink" />
-                <span>VinAI</span>
+                <Image src="/vinai.png" alt="VinAI" width={70} height={70} />
               </CompanyBadge>
               <CompanyBadge>
-                <CompanyIcon $color="pitch" />
-                <span>OPSWAT</span>
+                <Image src="/opswat.png" alt="OPSWAT" width={84} height={84} />
               </CompanyBadge>
             </CompanyBadges>
 
             <Description>
               <p>
-                Hi, I’m Son Trinh, a C++ Engineer at {" "}
-                <span style={{ color: "white", fontWeight: 600 }}>VinAI</span> in Vietnam.
-                My motto? Simple: "Work with the best, learn from the best, and be the best."
+                I'm Son Trinh, a C++ Engineer @VinAI in Vietnam. My work focuses on algorithmic development for L2/L2++ ADAS.
               </p>
               <p>
-                At VinAI, I'm hands-on developing core algorithms that push the boundaries of L2/L2++ ADAS capabilities.
+                My motto is really simple: "Work with the best, learn from the best, be the best."
               </p>
-              <p>P.S. Not open to new opportunities - focused on advancing ADAS at VinAI.</p>
+              <p>P.S. At this time, I'm not exploring new opportunities.</p>
             </Description>
 
             <SocialLinks>
