@@ -158,6 +158,9 @@ export const Title = styled.h1`
 export const Subtitle = styled.h2`
   font-size: 1.125rem;
   font-weight: 500;
+  background: linear-gradient(to right, ${(props) => props.theme.colors.purple[400]}, ${(props) => props.theme.colors.pink[400]});
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
   @media (min-width: ${(props) => props.theme.breakpoints.md}) {
     font-size: 1.5rem;
@@ -168,7 +171,7 @@ export const CompanyBadges = styled.div`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 1.5rem;
+  gap: 2rem;
 
   @media (min-width: ${(props) => props.theme.breakpoints.md}) {
     gap: 1.5rem;

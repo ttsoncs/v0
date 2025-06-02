@@ -43,7 +43,7 @@ export default function Home() {
         {/* Hero Section */}
         <HeroSection id="about">
           <HeroContent>
-            <div>
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
               <Title>Trinh The Son</Title>
               <Subtitle>Software Engineer C++</Subtitle>
             </div>
