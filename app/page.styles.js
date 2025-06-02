@@ -168,7 +168,7 @@ export const CompanyBadges = styled.div`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 1rem;
+  gap: 1.5rem;
 
   @media (min-width: ${(props) => props.theme.breakpoints.md}) {
     gap: 1.5rem;
