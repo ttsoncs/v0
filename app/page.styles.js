@@ -386,7 +386,7 @@ export const FooterContent = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  font-size: 1rem;
+  font-size: 0.875rem;
 
   @media (min-width: ${(props) => props.theme.breakpoints.md}) {
     flex-direction: row;

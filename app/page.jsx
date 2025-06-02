@@ -68,7 +68,7 @@ export default function Home() {
               <p>
                 At VinAI, I'm hands-on developing core algorithms that push the boundaries of L2/L2++ ADAS capabilities.
               </p>
-              <p>P.S. Not open to new opportunities - focused on advancing ADAS at VinAI."!</p>
+              <p>P.S. Not open to new opportunities - focused on advancing ADAS at VinAI.</p>
             </Description>
 
             <SocialLinks>
