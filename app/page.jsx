@@ -43,10 +43,7 @@ export default function Home() {
         {/* Hero Section */}
         <HeroSection id="about">
           <HeroContent>
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-              <Title>Trinh The Son</Title>
-              <Subtitle>Software Engineer C++</Subtitle>
-            </div>
+            <Title>Trinh The Son</Title>
 
             <CompanyBadges>
               <CompanyBadge>
@@ -59,7 +56,7 @@ export default function Home() {
 
             <Description>
               <p>
-                I'm Son Trinh, a C++ Engineer @VinAI in Vietnam. My work focuses on algorithmic development for L2/L2++ ADAS.
+                A C++ Engineer @<span style={{ color: "#00A4EF", fontWeight: 600 }}>VinAI</span> in Vietnam. Previously at OPSWAT. My work focuses on algorithmic research and development for L2/L2++ ADAS.
               </p>
               <p>
                 My motto is really simple: "Work with the best, learn from the best, be the best."
